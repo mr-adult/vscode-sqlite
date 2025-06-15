@@ -147,3 +147,8 @@ export const keywords = [
     "WITH",
     "WITHOUT",
 ];
+
+export const keywordsSet = new Set<string>();
+for (const keyword of keywords) {
+    keywordsSet.add(keyword);
+}
